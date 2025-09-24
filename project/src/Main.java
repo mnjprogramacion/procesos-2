@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("Guess the number between 1 and 100!");
 
-        boolean correct = false;
+        boolean correct = true;
         while (!correct) {
             System.out.print("Enter your guess: ");
             int guess = input.nextInt();
