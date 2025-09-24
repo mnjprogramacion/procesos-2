@@ -9,7 +9,7 @@ public class Main {
 
         boolean correct = false;
         while (!correct) {
-            System.out.print("Enter your guess: ");
+            System.out.print("Enter your number: ");
             int guess = input.nextInt();
             String result = game.guess(guess);
             System.out.println(result);
